@@ -119,7 +119,7 @@ public class OboloiVPN extends Activity {
     private void startVpn() {
         try {
 
-            OpenVpnApi.startVpn(activity, ovpnFileContent, country, expireAt,user, pass, profileId, timeOutInSeconds);
+            OpenVpnApi.startVpn(activity, ovpnFileContent, "", expireAt,user, pass, profileId, timeOutInSeconds);
 
             //connecting status
             vpnStart = true;
